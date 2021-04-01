@@ -1,2 +1,3 @@
 # Xone-K2
 This is a midi remote script made specifically for Xone:K2, since there isn't one written for such device. I am aiming to use the mixer to control the volume and tempo and also select tracks in the session view. 
+MyTransportComponent is simply a modified APK40_MKII.TransportComponent.py which was decompiled by Julien Bayle. This modified version allows users to map fine and coarse tempo control to an encoder. It was previously impossiblbe to do so with Ableton's tranport framework because it only allowed the tempo control to be mapped to an encoder with absolute midi mapping, i.e., a slider.  
